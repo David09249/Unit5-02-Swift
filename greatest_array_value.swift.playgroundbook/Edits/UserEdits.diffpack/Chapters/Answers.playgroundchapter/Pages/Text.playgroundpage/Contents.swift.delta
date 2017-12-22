@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created by: David Wang
+// Created on: Nov-2017
+// Created for: ICS3U
+// Daily Assignment - Unit5-02
+// This program finds the largest value in a given array
+
+var array = [1, 2, 3]
+var value_number_in_array = 0
+
+func findLargestValue(_ localArray: inout [Int]) {
+    for number in localArray {
+        if value_number_in_array &lt; number {
+            value_number_in_array = number
+        }
+    }
+}
+
+findLargestValue(&amp;array)
+show(String(describing: (array)))
+show(String(describing: value_number_in_array))
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 511}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 71}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
